@@ -137,7 +137,7 @@ def main():
     start_state = 0 #the start state will always correspond to the first row of the Markov Matrix
     curr_state = start_state 
     #The following for-loop creates the image, with the range being how many times a a state is queried for
-    for i in range(1):
+    for i in range(10):
         state = get_next_state(curr_state)
         if state == 0:
             color = 'blue'
